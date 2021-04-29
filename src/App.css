@@ -1,8 +1,8 @@
-
-.App {
-  text-align: center;
-
+.App{
+  background-color: #282c34;
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -16,16 +16,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items:center;
+  justify-content:flex-end;
   font-size: calc(10px + 2vmin);
   color: white;
-}
 
+  padding-right: 2px;
+  margin-left: 55%;
+  
+}
+#first-app{
+  margin-right: 45%;
+  color: rgb(112, 243, 12);
+  font-size: inherit;
+  font-weight:lighter;
+  
+}
 .App-link {
   color: #61dafb;
 }
